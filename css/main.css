@@ -44,7 +44,7 @@ main p {
 }
 
 .flexContainer {
-    display:block;
+    display: block;
     flex-wrap: wrap;
     gap: 15px;
 }
@@ -58,6 +58,12 @@ main p {
 
     img {
         width: calc(51.5% - 15px);
+        .
+    }
+
+    .flexContainer div {
+        display: inline;
+        width: 50%;
     }
 
     .gridContainer {
@@ -92,6 +98,12 @@ main p {
         margin-left: 100px;
         margin-right: 100px;
     }
+
+    img {
+        width: calc(50% - 15px);
+    }
+
+   
 
     .gridContainer {
         grid-template-columns: 1fr 1fr 1fr;
